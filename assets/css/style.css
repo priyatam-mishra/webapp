@@ -332,7 +332,6 @@ padding: 47px 50px;
 
 }
 
-
 @keyframes move1 {
 	0%{
 		transform: rotate(0deg);
@@ -642,8 +641,7 @@ padding-left: 50px;
 	.sec1{
 		font-size: 15px;
 		margin: 0;
-	}
- 
+	} 
 	.sec1 .e1{
 		margin-top: 15px;
 		flex-direction: column;
