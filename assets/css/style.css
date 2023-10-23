@@ -442,6 +442,9 @@ body {
 	border: 1px solid;
 	padding: 10px 30px;
 }
+#fa-hand-holding-usd{
+	color: var(--color2);
+}
 .sec11{
 	text-align: center;
 	font-family: monospace;
@@ -581,22 +584,9 @@ body {
 	animation: move1 3s infinite linear;
     color: #0ff;
 }
- .sec15{
-  
-	font-size: 20px;
- }
-.sec15 hr{
-	margin: 0%;
-	padding: 2.5px 0px;
-	background-color: #000;
-}
-.sec15 p{
-	text-align: center;
-	margin: 0%;
-	background-color: red;
-	margin: 0px 500px;
-	border-radius:50% ;
-}
+
+
+
 @media (max-width:1080px) {
 	.sec1{
 		font-size: 15px;
