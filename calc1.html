@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator1</title>
+    <style>
+        :root {
+            /* --bg_color1:#ffb178;
+            --bg_color2:#243441;
+            --bg_color3:#ed802e;
+            --txt_color:#73828d;
+            --txt_heading_color:#fafefe; */
+            --bg_color1:#ffb178;
+            --bg_color2:#fafefe;
+            --bg_color3:#ed802e;
+            --txt_color:#73828d;
+            --txt_heading_color:#243441;
+            user-select: none;
+        }
+        body{
+            background: var(--bg_color1);
+        }
+        .calc {
+            background: var(--bg_color2);
+            width: 302px;
+            padding: 30px;
+            border-radius: 30px;
+            font-family: monospace;
+            box-shadow:  0 0 3px 1px;
+            overflow: hidden;
+            .row button {
+                --w:50px;
+                width: var(--w);
+                height: var(--w);
+                background: #243441;
+                color: var(--txt_color);
+                font-weight: 400;
+                font-size: 18px;
+                margin: 10px;
+                border-radius: 15px;
+                cursor: pointer;
+            }
+
+            .row.cc button,
+            .row .cc {
+                color: var(--bg_color3);
+            }
+
+            .row .equalbtn {
+                background: var(--bg_color3);
+                color: var(--txt_heading_color);
+                width: 42%;
+            }
+            .total {
+                font-size: 50px;
+                height: 50px;
+                text-align: right;
+                color: var(--txt_heading_color);
+                width: 80%;
+                overflow: hidden;
+                transform: translateX(80px);
+            }
+            .current {
+                font-size: 25px;
+                height: 25px;
+                text-align: right;
+                color: var(--txt_color);
+               
+
+            }
+            .row.ca {
+                padding: 0 10px;
+            }
+
+            .img {
+                position: absolute;
+                width: 100px;
+                transform: translateX(-30px) translateY(-30px);
+            }
+
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="calc">
+        <img class="img" src="./assets/images/skullcalc.png" alt="hello">
+        <div class="row ca">
+            <div class="total"></div>
+            <div class="current"></div>
+        </div>
+        <div class="row cc">
+            <button onclick="calc(this.value)" value="AC">AC</button>
+            <button onclick="calc(this.value)" value="B">B</button>
+            <button onclick="calc(this.value)" value="%">%</button>
+            <button onclick="calc(this.value)" value="/">/</button>
+        </div>        
+        <div class="row">
+            <button onclick="calc(this.value)" value="7">7</button>
+            <button onclick="calc(this.value)" value="8">8</button>
+            <button onclick="calc(this.value)" value="9">9</button>
+            <button onclick="calc(this.value)" value="*" class="cc">X</button>
+        </div>
+        <div class="row">
+            <button onclick="calc(this.value)" value="4">4</button>
+            <button onclick="calc(this.value)" value="5">5</button>
+            <button onclick="calc(this.value)" value="6">6</button>
+            <button onclick="calc(this.value)" value="-" class="cc">-</button>
+        </div>
+        <div class="row">
+            <button onclick="calc(this.value)" value="1">1</button>
+            <button onclick="calc(this.value)" value="2">2</button>
+            <button onclick="calc(this.value)" value="3">3</button>
+            <button onclick="calc(this.value)" value="+" class="cc">+</button>
+        </div>
+        <div class="row">
+            <button onclick="calc(this.value)" value="0">0</button>
+            <button onclick="calc(this.value)" value=".">.</button>
+            <button onclick="calc(this.value)" value="=" class="equalbtn">=</button>
+        </div>
+    </div>
+
+
+
+
+
+    <script>
+
+        var r =''; 
+        var n_r = '';       
+        function calc(i) {
+
+            if (i == 'B') {
+                for (let i = 0; i < (r.length-1); i++) {
+                      n_r += r[i]            
+             }
+             r = n_r;
+             n_r = ''
+             document.querySelector('.current').innerHTML = r
+            } else if (i == 'AC') {
+                r = ''
+                document.querySelector('.current').innerHTML = r
+                document.querySelector('.total').innerHTML = r
+            } else if (i === '=') {
+                document.querySelector('.total').innerHTML = eval(r)
+            } else {
+                r+= i
+                document.querySelector('.current').innerHTML = r
+            }
+           
+        }
+    </script>
+    
+</body>
+</html>
