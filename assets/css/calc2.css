@@ -1,9 +1,10 @@
 :root {
-	--bg_color1: #0a0a0a59;
-	--bg_color2: #fafefe;
-	--bg_color3: #ed802e;
-	--txt_color: #f42d0f;
-	--txt_heading_color: #6220e6;
+	--bg_color1: #ffb178;
+	--bg_color2: #ebebeb;
+	--bg_color3: #a1a2a2;
+	--txt_color: #a1a2a2;
+	--eq__color:#ed802e;
+	--txt_heading_color: #080808;
 	user-select: none;
 }
 body {
@@ -14,22 +15,23 @@ body {
 	background: var(--bg_color2);
 	width: 302px;
 	padding: 30px;
-	border-radius: 30px;
+	border-radius: 40px;
 	font-family: monospace;
-	box-shadow: 0 0 3px 1px;
+	box-shadow: 0 0 4px 6px;
 	overflow: hidden;
 
 	.row button {
 		--w: 50px;
 		width: var(--w);
 		height: var(--w);
-		background: #4e0bf8a8;
+		background: #efedee;
 		color: var(--txt_color);
 		font-weight: 600;
 		font-size: 25px;
 		margin: 10px;
 		border-radius: 15px;
 		cursor: pointer;
+		box-shadow: 1.4px 0 4px ;
 	}
 
 	.row.cc button,
@@ -38,8 +40,8 @@ body {
 	}
 
 	.row .equalbtn {
-		background: var(--bg_color3);
-		color: var(--txt_heading_color);
+		background:var(--eq__color);
+		color:#fff;
 		width: 42%;
 	}
 
