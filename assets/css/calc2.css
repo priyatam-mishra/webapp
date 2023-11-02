@@ -8,7 +8,7 @@
 	user-select: none;
 }
 body {
-	background: var(--bg_color1);
+	background:radial-gradient(#feaa6eac,#ed812ee0);
 }
 .calc {
     margin:auto;
@@ -17,7 +17,7 @@ body {
 	padding: 30px;
 	border-radius: 40px;
 	font-family: monospace;
-	box-shadow: 0 0 4px 6px;
+	box-shadow: 0 0 9px 8px;
 	overflow: hidden;
 
 	.row button {
@@ -31,7 +31,7 @@ body {
 		margin: 10px;
 		border-radius: 15px;
 		cursor: pointer;
-		box-shadow: 1.4px 0 4px ;
+		box-shadow: 2px 0 px ;
 	}
 
 	.row.cc button,

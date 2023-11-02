@@ -40,15 +40,15 @@ const cc = [
     [`bi1.jfif`],
     [`bi3.jfif`]
 ]
-function room(i='',j='',k='') {
+function room(i='') {
     return `<div class="cc2">
-    <img src="./assets/images/${i}" alt="">
+    <div class="img" style="background:url(./assets/images/${i})"></div>
     <div class="cc1">
     <div class="cc3">
     <i class="fa fa-clock">
     </i> 19 oct 
     <i class="fa fab fa-facebook-messenger"></i>
-    16;
+    16
     </div>
     <h5>Mobile Friendly Comments
     Dashboardnow launched !</h5>
@@ -64,8 +64,4 @@ cc.forEach(i => {
     v.innerHTML += room(i[0], i[1], i[2])
 });
 
-/* <div class="c1">
-<div>
-  
-</div>
-</div> */
+

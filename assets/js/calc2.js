@@ -16,9 +16,11 @@ function calc(i) {
       document.querySelector('.total').innerHTML = r
    } else if (i === '=') {
       document.querySelector('.total').innerHTML = eval(r)
+
+
+      localStorage.setItem('calc', eval(r))
    } else {
       r += i
       document.querySelector('.current').innerHTML = r
    }
-
 }
