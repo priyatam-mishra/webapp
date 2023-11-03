@@ -5,8 +5,6 @@
 	font-family:'e1';
 	src: url(../webfonts/Rubik-VariableFont_wght.ttf);
 }
-
-
 body {
 	margin: 0;
 	background: #f1f1f1;
@@ -14,16 +12,12 @@ body {
 	letter-spacing:1.5px;
 	font-weight:600;
 	font-family: 'e1';
-	
 }
-
 .sec1 {
 	background: #fff;
 	position: fixed;
 	width: 100%;
 }
-
-
 .sec2 {
 	padding-top: 20px;
 	text-align: center;
@@ -32,22 +26,19 @@ body {
 	color: #fff;
 	.q1 h2 {
 		font-size: 30px;
-
-	}
-    .q1{
-		/* padding:10px 30px ; */
+   }
+	.q1{
+	   /* padding:10px 30px ;
+		*/
 		margin: auto;
-
-	}
+   }
 	.q1 p {
 		font-size: 10px;
 		padding: 10px 30px;
-	}
-
+   }
 	.q1 span {
 		color: var(--color1--);
-	}
-
+   }
 	.q1 button {
 		border-radius: 20px;
 		padding: 5px 20px;
@@ -55,106 +46,86 @@ body {
 		text-transform: capitalize;
 		font-size: 15px;
 		color: #fff;
-	}
-
+   }
 	.q1 h6 {
 		font-size: 10px;
-	}
+   }
 }
-
 .sec3 {
 	text-align: center;
-    .col-lg-12 h4{
+	.col-lg-12 h4{
 		font-weight:bold;
-	}
-	
-
+   }
 	.c2 {
 		text-align: left;
 		padding:10px 30px;
 		background: #ffffffbe;
-
-
-	}
-
+   }
 	.c4 {
 		text-align: left;
 		padding: 20px 30px;
 		background: #ffffffbe;
-	}
-
+   }
 	.ic {
 		background: var(--color1--);
 		padding: 10px;
 		border-radius: 100px;
 		color: rgb(242, 98, 15);
-	}
+   }
 	.c3 span{
 		color: #000;
-	}
+   }
 	.c3{
 		color: gray;
 		font-size: 10px;
-	}
+   }
 }
-
 .sec4 {
 	background: #282d31;
-
 	.q1 {
 		padding: 30px 0px;
-	}
-
+   }
 	.q1 h3 {
 		color: #fff;
-	}
-
+   }
 	.q1 p {
 		color: #fff;
 		font-size: 15px;
-	}
-
+   }
 	.q2 button {
 		border-radius: 20px;
 		padding:7px 20px;
 		font-weight:400;
 		text-transform: uppercase;
-	}
-
+   }
 	.q2 {
 		margin: auto;
-	}
+   }
 }
-
 .sec5 {
 	background: #fff;
-
 	.q1 {
 		margin: 10px 0px;
 		display: flex;
-	}
-
+   }
 	.q3 {
 		text-align: center;
-	}
-
+   }
 	.q3 h3 {
 		font-size: 20px;
-	}
+   }
 	.q3 p {
 		font-size: 10px;
-	}
-	
+   }
 	.c1{
-      background:url(../images/office2.jfif);
-	}
+		background:url(../images/office2.jfif);
+   }
 	.c2{
 		background:url(../images/office1.jfif);
-	  }
-	  .c3{
+   }
+	.c3{
 		background:url(../images/office.jfif);
-	  }
-	  
+   }
 	.cc{
 		margin: auto;
 		--w:230px;
@@ -163,7 +134,7 @@ body {
 		background-size: cover;
 		background-repeat: no-repeat;
 		background-position: center;
-	}
+   }
 }
 .sec6{
 	text-align: center;
@@ -178,90 +149,87 @@ body {
 			background:#000;
 			padding:10px 20px;
 			border-radius:100px;
-		}
-	}
+	   }
+   }
 	.q2{
 		background: #282d31;
 		color:#fff;
 		border-radius:20px;
 		padding:30px 10px;
-        .cc1{
+		.cc1{
 			background: var(--color1--);
 			padding:10px 20px;
 			border-radius:100px;
-		}
-	}
+	   }
+   }
 	.q1 p{
 		font-size:14px;
 		color:gray;
-	}
+   }
 	.q2 p{
 		font-size:14px;
 		color:gray;
-
-	}
+   }
 }
 .sec7{
 	background:#282d31;
 	color:#fff;
-		.cc{
+	.cc{
 		margin-bottom:10px;
 		margin-top:10px;
 		text-align: center;
-	    font-family:e1;
-	}
+		font-family:e1;
+   }
 	.q1{
 		padding:40px 10px;
-	}
+   }
 	.q1 p{
 		font-size:20px;
 		padding:40px 10px;
 		color: gray;
-	}
+   }
 	.q1 h3{
 		font-size:30px;
 		padding:40px 10px;
-	}
+   }
 	.cc p{
 		color: gray;
-
-	}
+   }
 	.q1 h6{
 		color: gray;
-        font-size:10px; 
-	}
+		font-size:10px;
+   }
 	.q1 button{
 		border-radius:20px;
 		font-size:20px;
-	}
-	
+   }
 	.q2{
 		background: url(../images/billgate.jpg);
-	}
+   }
 	.q3{
 		background:url(../images/office1.jfif);
-	}
+   }
 	.q4{
 		background:url(../images/office2.jfif);
-	}
+   }
 	.q5{
 		background:url(../images/office1.jfif);
-	}
+   }
 	.img{
 		--wth:230px;
 		height:var(--wth);
 		width:var(--wth);
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: center;	
-	}
+		background-position: center;
+   }
 	.cc h2{
 		font-size: 18px;
 		margin-top:10px;
-	}
+   }
 	.cc p{
 		font-size:13px;
-	}
+   }
 }
 .sec8{
 	background:#fff;
@@ -269,56 +237,55 @@ body {
 	.q1 h4{
 		color:var(--color1--);
 		font-size:15px;
-	}
+   }
 	.q1 h3{
 		font-size:20px;
-	}
+   }
 	.fa-phone{
 		color:var(--color1--);
-	}
+   }
 }
 .sec9{
 	background:#000;
 	padding-top:90px;
 	.row{
 		color:rgba(128, 128, 128, 0.979);
-	}
+   }
 	.col-lg-8{
 		margin:auto;
-	}
-	
+   }
 	.fa-quote-left{
 		color:var(--color1--);
 		font-size:50px;
-		}
+   }
 	.col-lg-8 p{
-          font-size:10px;
-		}
+		font-size:10px;
+   }
 	.col-lg-8 span{
 		color:var(--color1--);
-	}
+   }
 }
 .sec10{
 	.q1{
 		margin-bottom:10px;
 		padding:10px 15px;
-	}
+   }
 	.cc{
 		font-size:15px;
-	}
+   }
 	.cc ::placeholder{
 		font-size:10px;
-	}
+   }
 	.btn-primary{
 		padding:5px 130px;
-	}
+   }
 	.q1 p{
-	 font-size:13px;
-	 color:gray;
-	}
+		font-size:13px;
+		color:gray;
+   }
 	.q1 h3{
 		font-size:18px;
-	   }
+   }
 }
 .sec11{
 	margin-top:10px;
@@ -328,22 +295,20 @@ body {
 		font-size:10px;
 		margin-top:16px;
 		color:rgba(128, 128, 128, 0.808);
-	}
+   }
 }
-
 .sec_menu {
 	background: #000;
 	width: max-content;
-	padding: 20px 50px  0 20px;
+	padding: 20px 50px 0 20px;
 	position: fixed;
 	height: 100vh;
 	z-index: 1;
 	transform: translateX(-300px);
-	transition: all .6s;
-
+	transition: all .8s;
 	.ul {
 		list-style: none;
-	}
+   }
 	.ul button {
 		width: 100%;
 		background: #fff;
@@ -352,17 +317,15 @@ body {
 		text-transform: uppercase;
 		font-weight: bold;
 		padding: 10px 30px;
-	}
+   }
 	.ul li {
-				
 		margin-bottom: 10px;
-	}
+   }
 	.close {
 		position: absolute;
 		right: 10px;
-	}
+   }
 }
-
 .close {
 	cursor: pointer;
 	border: none;
