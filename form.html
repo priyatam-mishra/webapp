@@ -1,57 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-<link rel="stylesheet" href=".//assets/css/form.css">
-</head>
+    <link rel="stylesheet" href=".//assets/css/form.css" />
+  </head>
 
-<body>
+  <body>
     <section class="sec1">
-        <h2>student registration form using table in  HTML</h2>
+      <h2>student registration form using table in HTML</h2>
     </section>
 
     <form action="" method="get">
-    <section class="sec2">
+      <section class="sec2">
         <div>
-   <label for="name" class="cc">name</label>
-   <input required name="name" id="name " type="text" placeholder="enter your name" class="cc">
-   <label for="" class="text1">max 50 character allowed</label>
-         </div>
+          <label for="name" class="cc">name</label>
+          <input
+            required
+            name="name"
+            id="name "
+            type="text"
+            placeholder="enter your name"
+            class="cc"
+          />
+          <label for="" class="text1">max 50 character allowed</label>
+        </div>
 
-         <div>
-            <label for="lastname" class="cc"> lastname</label>
-            <input required name="lastname" id="lastname" type="text" placeholder="enter your name" class="cc">
-            <label for="" class="text1">max 50 character allowed</label>
-         </div>
+        <div>
+          <label for="lastname" class="cc"> lastname</label>
+          <input
+            required
+            name="lastname"
+            id="lastname"
+            type="text"
+            placeholder="enter your name"
+            class="cc"
+          />
+          <label for="" class="text1">max 50 character allowed</label>
+        </div>
 
-     <div>
-        <label for="email"  class="cc"> email</label>
-         <input required name="email" id="email" type="email" placeholder="raj@gmail.com"  class="cc">
-    </div>
+        <div>
+          <label for="email" class="cc"> email</label>
+          <input
+            required
+            name="email"
+            id="email"
+            type="email"
+            placeholder="raj@gmail.com"
+            class="cc"
+          />
+        </div>
 
-       <div>
-             <label for="phone number" class="cc"> phone number</label>
-                 <input required name="phone number" id="phone number" type="number" placeholder="2339xxxxxx" class="cc">
-                            <label for="" class="text1">10 digits allowed</label>
+        <div>
+          <label for="phone number" class="cc"> phone number</label>
+          <input
+            required
+            name="phone number"
+            id="phone number"
+            type="number"
+            placeholder="2339xxxxxx"
+            class="cc"
+          />
+          <label for="" class="text1">10 digits allowed</label>
         </div>
         <div>
-            <label for=" gender" class="cc"> gender</label>
+          <label for=" gender" class="cc"> gender</label>
 
-                <input  name=" gender" value="male" id=" male" type="radio">
-                <label for="male" class="cc">male</label>
+          <input name=" gender" value="male" id=" male" type="radio" />
+          <label for="male" class="cc">male</label>
 
-                <input  name=" gender" value="female" id=" female" type="radio">
-                <label for="female" class="cc">female</label>
-                
-                <input  name=" gender" value="other" id=" other" type="radio">
-                <label for="other" class="cc">other</label>
-       </div>
-       <div class="date">
-        <label for="date of brith"  class="cc">date of brith</label>
+          <input name=" gender" value="female" id=" female" type="radio" />
+          <label for="female" class="cc">female</label>
 
-        <select name="day" id="day" >
+          <input name=" gender" value="other" id=" other" type="radio" />
+          <label for="other" class="cc">other</label>
+        </div>
+        <div class="date">
+          <label for="date of brith" class="cc">date of brith</label>
+
+          <select name="day" id="day">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -59,9 +87,8 @@
             <option value="5">5</option>
             <option value="6">6</option>
             <option hidden selected value="day">day:</option>
-            
-        </select>
-        <select name="month" id="month">
+          </select>
+          <select name="month" id="month">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
@@ -75,9 +102,8 @@
             <option value="11">11</option>
             <option value="12">12</option>
             <option hidden selected value="month">month:</option>
-            
-        </select>
-        <select name="year" id="year">
+          </select>
+          <select name="year" id="year">
             <option value="2001">2001</option>
             <option value="2002">2002</option>
             <option value="2003">2003</option>
@@ -91,149 +117,231 @@
             <option value="2011">2011</option>
             <option value="2012">2012</option>
             <option hidden selected value="year">year:</option>
-            
-        </select>
-       </div>
+          </select>
+        </div>
 
-       <div>
-        <label for="address"  class="cc">address:</label>
+        <div>
+          <label for="address" class="cc">address:</label>
 
-         <textarea placeholder="address" name="address" id="address" cols="30" rows="5"> </textarea>
-    </div>
- <div>
-    <label for="city " class="cc">city</label>
-    <input required name="city" id="city" type="text" placeholder="m.p" class="cc">
-    <label for="" class="text1">max 50 character allowed</label>
- </div>
- <div>
-    <label for="pincode" class="cc">pincode</label>
-    <input required name="pincode" id="pincode" type="number" placeholder="12345" class="cc">
-    <label for="" class="text1">max 6 character allowed</label>
- </div>
- <div> 
-    <label for="state" class="cc">state</label>
-    <input required name="state" id="state" type="text" placeholder="rewa" class="cc">
-    <label for="" class="text1">max 50 character allowed</label>
- </div>
- <div>
-    <label for="country" class="cc">country</label>
-    <input required name="country" id="country" type="text" placeholder="INDIA"  class="cc">
- </div> 
- <div class="hobbies">
-    <label id="title" for=" hobbies"  class="cc"> hobbies</label>
+          <textarea
+            placeholder="address"
+            name="address"
+            id="address"
+            cols="30"
+            rows="5"
+          >
+          </textarea>
+        </div>
+        <div>
+          <label for="city " class="cc">city</label>
+          <input
+            required
+            name="city"
+            id="city"
+            type="text"
+            placeholder="m.p"
+            class="cc"
+          />
+          <label for="" class="text1">max 50 character allowed</label>
+        </div>
+        <div>
+          <label for="pincode" class="cc">pincode</label>
+          <input
+            required
+            name="pincode"
+            id="pincode"
+            type="number"
+            placeholder="12345"
+            class="cc"
+          />
+          <label for="" class="text1">max 6 character allowed</label>
+        </div>
+        <div>
+          <label for="state" class="cc">state</label>
+          <input
+            required
+            name="state"
+            id="state"
+            type="text"
+            placeholder="rewa"
+            class="cc"
+          />
+          <label for="" class="text1">max 50 character allowed</label>
+        </div>
+        <div>
+          <label for="country" class="cc">country</label>
+          <input
+            required
+            name="country"
+            id="country"
+            type="text"
+            placeholder="INDIA"
+            class="cc"
+          />
+        </div>
+        <div class="hobbies">
+          <label id="title" for=" hobbies" class="cc"> hobbies</label>
 
-        <input  name=" hobbies" value="drawing" id=" drawing" type="radio">
-               <label for="drawing" class="cc">
-                   drawing
-               </label>
+          <input name=" hobbies" value="drawing" id=" drawing" type="radio" />
+          <label for="drawing" class="cc"> drawing </label>
 
-        <input  name=" hobbies" value="singing" id=" singing" type="radio">
-                <label for="singing" class="cc">
-                    singing
-                </label>
+          <input name=" hobbies" value="singing" id=" singing" type="radio" />
+          <label for="singing" class="cc"> singing </label>
 
-        <input  name=" hobbies" value="dancing" id=" dancing" type="radio">
-                <label for="dancing" class="cc">
-                    dancing
-                </label>
- <br>
-              
+          <input name=" hobbies" value="dancing" id=" dancing" type="radio" />
+          <label for="dancing" class="cc"> dancing </label>
+          <br />
 
-        <input  name=" hobbies" value="sketching" id=" sketching" type="radio">
-                   <label for="sketching" class="cc">
-                    sketching
-                   </label>
+          <input
+            name=" hobbies"
+            value="sketching"
+            id=" sketching"
+            type="radio"
+          />
+          <label for="sketching" class="cc"> sketching </label>
 
-        <input  name=" hobbies" value="other" id=" other" type="radio">
-                    <label for="other" class="cc">other</label>
-        
-        <input type="text" placeholder="teching" class="cc">
-                    <label for="" class="text1">max 50 character allowed</label>
+          <input name=" hobbies" value="other" id=" other" type="radio" />
+          <label for="other" class="cc">other</label>
 
-</div>
-<div class="cc1">
-    <label id="title" for="Qualification" class="cc">Qualification  </label> 
-  
-    <div class="cc2">
-    <input  name=" Qualification" value="h s" id=" h s" type="radio" >
-    <label for=" high school(10th)" class="cc">
-        high school(10th)
-    </label>
-  
-    <input  name=" Qualification" value="12th" id=" 12th" type="radio" >
-    <label for=" high school(12th)" class="cc">
-        high school(12th)
-    </label>
-  
-    <input  name=" Qualification" value="graduation" id="graduation" type="radio" >
-    <label for=" graduation(bachelors)" class="cc">
-       graduation(bachelors)
-    </label>
-  
-    <input  name=" Qualification" value="post graduation" id="post graduation" type="radio" >
-    <label for="  post graduation(masters)" class="cc">
-        post graduation(masters)
-    </label>
-    <input  name="Qualification" value="phd" id="phd" type="radio" >
-    <label for=" phd" class="cc">
-        phd
-    </label>
-  </div>
-  
-  </div>
-<div class="cc1">
-  <label id="title" for="courceses applied for" class="cc">courceses applied for</label> 
+          <input type="text" placeholder="teching" class="cc" />
+          <label for="" class="text1">max 50 character allowed</label>
+        </div>
+        <div class="cc1">
+          <label id="title" for="Qualification" class="cc"
+            >Qualification
+          </label>
 
-  <div class="cc2">
-  <input  name=" courceses applied for" value="BCA" id=" BCA" type="radio" >
-  <label for="BCA(Bachelor of computer application)" class="cc">
-      BCA(Bachelor of computer application)
-  </label>
+          <div class="cc2">
+            <input name=" Qualification" value="h s" id=" h s" type="radio" />
+            <label for=" high school(10th)" class="cc">
+              high school(10th)
+            </label>
 
-  <input  name=" courceses applied for" value="B.com" id=" B.com" type="radio" >
-  <label for="B.com(Bachelor ofcommerce)" class="cc">
-      B.com(Bachelor ofcommerce)
-  </label>
+            <input name=" Qualification" value="12th" id=" 12th" type="radio" />
+            <label for=" high school(12th)" class="cc">
+              high school(12th)
+            </label>
 
-  <input  name=" courceses applied for" value="B.sc" id=" B.sc" type="radio" >
-  <label for="  B.Sc(Bachelor of science)" class="cc">
-      B.Sc(Bachelor of science)
-  </label>
+            <input
+              name=" Qualification"
+              value="graduation"
+              id="graduation"
+              type="radio"
+            />
+            <label for=" graduation(bachelors)" class="cc">
+              graduation(bachelors)
+            </label>
 
-  <input  name=" courceses applied for" value="B.a" id=" B.a" type="radio" >
-  <label for="  B.a(Bachelor of art)" class="cc">
-      B.Sc(Bachelor of science)
-  </label>
+            <input
+              name=" Qualification"
+              value="post graduation"
+              id="post graduation"
+              type="radio"
+            />
+            <label for="  post graduation(masters)" class="cc">
+              post graduation(masters)
+            </label>
+            <input name="Qualification" value="phd" id="phd" type="radio" />
+            <label for=" phd" class="cc"> phd </label>
+          </div>
+        </div>
+        <div class="cc1">
+          <label id="title" for="courceses applied for" class="cc"
+            >courceses applied for</label
+          >
 
-  <input  name=" courceses applied for" value="BCA" id=" BCA" type="radio" >
-  <label for="mCA(master of computer application)" class="cc">
-      BCA(Bachelor of computer application)
-  </label>
+          <div class="cc2">
+            <input
+              name=" courceses applied for"
+              value="BCA"
+              id=" BCA"
+              type="radio"
+            />
+            <label for="BCA(Bachelor of computer application)" class="cc">
+              BCA(Bachelor of computer application)
+            </label>
 
-  <input  name=" courceses applied for" value="B.com" id=" B.com" type="radio" >
-  <label for="m.com(master ofcommerce)" class="cc">
-      B.com(Bachelor ofcommerce)
-  </label>
+            <input
+              name=" courceses applied for"
+              value="B.com"
+              id=" B.com"
+              type="radio"
+            />
+            <label for="B.com(Bachelor ofcommerce)" class="cc">
+              B.com(Bachelor ofcommerce)
+            </label>
 
-  <input  name=" courceses applied for" value="B.sc" id=" B.sc" type="radio" >
-  <label for="  m.Sc(master of science)" class="cc">
-      B.Sc(Bachelor of science)
-  </label>
+            <input
+              name=" courceses applied for"
+              value="B.sc"
+              id=" B.sc"
+              type="radio"
+            />
+            <label for="  B.Sc(Bachelor of science)" class="cc">
+              B.Sc(Bachelor of science)
+            </label>
 
-  <input  name=" courceses applied for" value="B.a" id=" B.a" type="radio" >
-  <label for="  m.a(master of art)" class="cc">
-      B.Sc(Bachelor of science)
-  </label>
-</div>
+            <input
+              name=" courceses applied for"
+              value="B.a"
+              id=" B.a"
+              type="radio"
+            />
+            <label for="  B.a(Bachelor of art)" class="cc">
+              B.Sc(Bachelor of science)
+            </label>
 
-</div>
+            <input
+              name=" courceses applied for"
+              value="BCA"
+              id=" BCA"
+              type="radio"
+            />
+            <label for="mCA(master of computer application)" class="cc">
+              BCA(Bachelor of computer application)
+            </label>
 
+            <input
+              name=" courceses applied for"
+              value="B.com"
+              id=" B.com"
+              type="radio"
+            />
+            <label for="m.com(master ofcommerce)" class="cc">
+              B.com(Bachelor ofcommerce)
+            </label>
 
+            <input
+              name=" courceses applied for"
+              value="B.sc"
+              id=" B.sc"
+              type="radio"
+            />
+            <label for="  m.Sc(master of science)" class="cc">
+              B.Sc(Bachelor of science)
+            </label>
 
+            <input
+              name=" courceses applied for"
+              value="B.a"
+              id=" B.a"
+              type="radio"
+            />
+            <label for="  m.a(master of art)" class="cc">
+              B.Sc(Bachelor of science)
+            </label>
+          </div>
+        </div>
 
-<input id="clear" name="login" type="submit" value="submit"  class="cc">
-<input id="clear" type="reset" value="clear" class="cc">
-    </section> 
-  </form>
-</body>
+        <input
+          id="clear"
+          name="login"
+          type="submit"
+          value="submit"
+          class="cc"
+        />
+        <input id="clear" type="reset" value="clear" class="cc" />
+      </section>
+    </form>
+  </body>
 </html>
