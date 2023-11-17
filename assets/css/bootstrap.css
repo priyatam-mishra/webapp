@@ -298,10 +298,10 @@ body {
    }
 }
 .sec_menu {
-	background: #000;
+	background:black;
 	width: max-content;
-	padding: 20px 50px 0 20px;
-	position: fixed;
+	padding: 10px 40px 0 5px;
+	position:fixed;
 	height: 100vh;
 	z-index: 1;
 	transform: translateX(-300px);
@@ -311,12 +311,12 @@ body {
    }
 	.ul button {
 		width: 100%;
-		background: #fff;
+		background:transparent;
 		text-decoration: none;
-		color: #000;
+		color:#fff;
 		text-transform: uppercase;
 		font-weight: bold;
-		padding: 10px 30px;
+		padding: 2px 4px;
    }
 	.ul li {
 		margin-bottom: 10px;
@@ -324,6 +324,9 @@ body {
 	.close {
 		position: absolute;
 		right: 10px;
+		padding:5px;
+		background:transparent;
+		color:#fff;
    }
 }
 .close {
