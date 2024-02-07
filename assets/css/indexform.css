@@ -1,0 +1,43 @@
+.form-group {
+    width: 300px;
+    height: fit-content;
+    border: 3.5px solid #f1f1f1;
+    outline: 3.5px solid #020202;
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: rgba(71, 246, 7, 0.228);
+    text-align: center;
+    /* text-align: -webkit-match-parent; */
+    backdrop-filter: blur(5px);
+    box-shadow: inset 0 0 6px 8px rgb(97, 97, 97), -20px -10px 30px rgb(84, 241, 241), 20px 10px 30px #f67272ef;
+
+}
+
+body {
+    background: #656464;
+    margin: 0;
+    padding: 0%;
+}
+
+.cc {
+    background: url(../images/pexels-james-wheeler-1519088.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 50px;
+}
+
+.btn-primary {
+    margin-top: 10px;
+}
+
+label {
+    /* color: whitesmoke; */
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: underline rgb(245, 245, 245);
+    user-select: none;
+}
