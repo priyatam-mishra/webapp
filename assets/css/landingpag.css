@@ -1,0 +1,32 @@
+body {
+    margin: 0%;
+    overflow: hidden;
+}
+
+.img {
+    background: url(../images/5274256-removebg-preview.png);
+    height: 50vh;
+    width: 69vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translate(200px, -250px);
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+
+    li {
+        list-style: none;
+        text-transform: capitalize;
+    }
+}
+
+.tt {
+    margin-top: 9%;
+
+    h1 {
+        font-size: 70px;
+    }
+}

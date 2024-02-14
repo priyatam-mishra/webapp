@@ -10,6 +10,10 @@ document.querySelector('.lin').addEventListener('click', () => {
     lin.background = "#fff";
     document.querySelector('.dark').style.color = " #686868";
     document.querySelector('.c1').style.color = "black";
+    document.querySelector('.body').style.background = "#e3e3e3";
+    document.querySelector('.cc').style.boxShadow = " 0 0 5px 3.5px  #201a1a";
+
+
 })
 document.querySelector('.dark').addEventListener('click', () => {
     document.querySelector('.c3').style.animation = " cc 1s 1 linear";
@@ -23,4 +27,7 @@ document.querySelector('.dark').addEventListener('click', () => {
     document.querySelector('.lin').style.color = " #686868";
     dark.background = " #ffffff ";
     dark.color = " black ";
+    document.querySelector('.body').style.background = " #26242e";
+    document.querySelector('.cc').style.boxShadow = " 0 0 5px 3.5px #ffff";
+
 })
